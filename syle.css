@@ -89,7 +89,7 @@ h1 {
 
 .btn3::before{
     width: 100%;
-    height: 0%;
+    height: 0;
     transform: translate(-50%,-50%) rotate(45deg);
 }
 .btn3:hover::before{
@@ -98,7 +98,7 @@ h1 {
 
 .btn4::before{
     width: 100%;
-    height: 0%;
+    height: 0;
     transform: translate(-50%,-50%) rotate(-45deg);
 }
 .btn4:hover::before{
@@ -186,7 +186,10 @@ h1 {
 .footer-dark .item.social > a:hover {
     opacity:0.9;
 }
-
+.row {
+text-align: center;
+}
+}
 .footer-dark .copyright {
     text-align:center;
     padding-top:24px;
