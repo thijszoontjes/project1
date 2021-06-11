@@ -12,19 +12,19 @@ background-color: lightgray;
 .middle{
     position: absolute;
     top: 7%;
-    left: 78%;
+    left: 84%;
     transform: translate(-50%,-50%);
 }
 .welkom {
 margin-top: 250px;
     color: green;
-    margin-right: 1200px;
+    margin-right: 1100px;
     font-size: 30px;
     white-space: nowrap;
 }
 
 .ondertext {
-    margin-left: 30px;
+    margin-left: 50px;
     padding: 0;
 }
 .middle {
@@ -38,7 +38,7 @@ margin-top: 250px;
     font-size: 17px;
     text-decoration: none;
     margin: 9px 10px;
-    border: 3px solid rosybrown;
+    border: 3px solid green;
     padding: 10px 50px;
     overflow: hidden;
     transition: 1s all ease;
@@ -71,7 +71,7 @@ footer{
     background: linear-gradient(to right, blue, white, white,  black);
 }
 .btn::before{
-    background: rosybrown;
+    background: green;
     content: "";
     position: absolute;
     top: 50%;
