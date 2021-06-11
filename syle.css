@@ -4,10 +4,10 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     z-index: auto;
-
-    background-color: rgba(50,50,50, 0.3) !important;
+background-color: rgba(65, 131, 215, 1)
 }
-
+.container { 
+}
 /*http://www.autogeschiedenis.nl/images/auto-dealer.jpg */
 .middle{
     position: absolute;
