@@ -4,7 +4,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     z-index: auto;
-background-color: rgba(65, 131, 215, 1)
+background-color: lightgray;
 }
 .container { 
 }
@@ -12,11 +12,20 @@ background-color: rgba(65, 131, 215, 1)
 .middle{
     position: absolute;
     top: 7%;
-    left: 50%;
+    left: 78%;
     transform: translate(-50%,-50%);
 }
+.welkom {
+margin-top: 250px;
+    margin-right: 1200px;
+    font-size: 30px;
+    white-space: nowrap;
+}
 
-
+.ondertext {
+    margin-left: 30px;
+    padding: 0;
+}
 .middle {
     display: flex; /* knoppen staan naast elkaar */
 }
@@ -24,16 +33,23 @@ background-color: rgba(65, 131, 215, 1)
     position: relative;
     display: block;
     color: black;
+    text-align: center;
     font-size: 17px;
     text-decoration: none;
     margin: 9px 10px;
-    border: 3px solid #ff7675;
-    padding: 10px 150px;
+    border: 3px solid rosybrown;
+    padding: 10px 50px;
     overflow: hidden;
     transition: 1s all ease;
 
 
 }
+#luckycat {
+    float: right;
+    margin-top: -18%;
+    margin-right: 280px;
+}
+
 
 h1 {
     text-align: center;
@@ -54,7 +70,7 @@ footer{
     background: linear-gradient(to right, blue, white, white,  black);
 }
 .btn::before{
-    background: #ff7675;
+    background: rosybrown;
     content: "";
     position: absolute;
     top: 50%;
