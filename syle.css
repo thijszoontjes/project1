@@ -17,6 +17,7 @@ background-color: lightgray;
 }
 .welkom {
 margin-top: 250px;
+    color: green;
     margin-right: 1200px;
     font-size: 30px;
     white-space: nowrap;
