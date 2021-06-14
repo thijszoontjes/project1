@@ -23,6 +23,12 @@ margin-top: 250px;
     white-space: nowrap;
 }
 
+.webshop {
+    color: green;
+    margin-top: 320px;
+    font-size: 30px;
+}
+
 
 .ondertext {
     margin-left: 50px;
@@ -56,6 +62,7 @@ margin-top: 250px;
 h1 {
     text-align: center;
     margin-top: 10px;
+
 }
 
 .btn::before{
@@ -189,7 +196,7 @@ h1 {
 .row {
 text-align: center;
 }
-}
+
 .footer-dark .copyright {
     text-align:center;
     padding-top:24px;
@@ -198,4 +205,60 @@ text-align: center;
     margin-bottom:0;
 }
 
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    background-color: floralwhite;
 
+}
+.container1 {
+    display: flex;
+}
+.container2 {
+    display: flex;
+    margin-top: 45px;
+}
+.price {
+    color: grey;
+    font-size: 22px;
+
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+.container3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 600px;
+    width: 80%;
+    background-color: white;
+   margin: auto;
+   color: green;
+    font-size: 20px;
+}
+
+.info {
+    color: black;
+    margin-left: 25px;
+}
+
+#veeg {
+    width: 1800px;
+    height: 200px;
+    font-size: 2px;
+}
