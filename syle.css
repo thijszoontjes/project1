@@ -9,7 +9,7 @@ body{
     z-index: auto;
 
 }
-.container { 
+.container {
 }
 /*http://www.autogeschiedenis.nl/images/auto-dealer.jpg */
 .middle{
@@ -32,11 +32,11 @@ margin-top: 250px;
     font-size: 30px;
 }
 
-
 .ondertext {
     margin-left: 50px;
     padding: 0;
 }
+
 .middle {
     display: flex; /* knoppen staan naast elkaar */
 }
