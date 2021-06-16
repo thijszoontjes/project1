@@ -1,14 +1,14 @@
 html {
     scroll-behavior: smooth;
+
 }
 
 body{
     margin: 0;
     padding: 0;
-    background-repeat: no-repeat;
-    background-size: cover;
     z-index: auto;
-background-color: lightgray;
+
+
 }
 .container { 
 }
@@ -312,4 +312,7 @@ text-align: center;
 
 u {
     color: green;
+}
+
+#koop {
 }
