@@ -1,0 +1,16 @@
+Index: hoofdpagina.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- hoofdpagina.html	(revision ae40b48bf7a2156933a68b0020598740e579c8cb)
++++ hoofdpagina.html	(date 1623667627931)
+@@ -102,7 +102,7 @@
+                         <li><a href="#">Contact</a></li>
+                     </ul>
+                 </div>
+-            <p class="copyright">Beautje Cadeautje 2021</p>
++            <p class="copyright">Beautje Cadeautje 2021@</p>
+         </div>
+         </div>
+     </footer>
