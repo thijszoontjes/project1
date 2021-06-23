@@ -28,13 +28,35 @@
 
     <div class="informatie" ><u>Productinformatie:</u><br><br>Een sleutel hanger van een kat/poes Gemaakt van stof, katoen en placeholder
         <br>placeholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholder <br>
-        placeholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholder</div>
+        placeholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholder
+        <br> <br> <u>Productkwalificaties:</u> <br><br> Lengte: <br> Hoogte: <br> Gewicht: <br><br> <u>Levering & Prijs:</u> <br><br> Voor morgen 00:00 besteld, morgen in huis! ($2,00 verzendkosten) <br> Prijs: $2,99 exl verzendkosten. <br><br>  </div>
 
+
+    <div class="producttitel"><b>Product titel </b> </div>
     <span><a href="#"></a></span>
+
         <div class="card1">
             <img src="images/lucky_cat.png" alt="Denim Jeans" style="width:100%">
         </div>
     </div>
-</div>
+
+<br> <br> <br> <br><br> <br><br> <br>
+<div class="footer-dark">
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="hoofdpagina.php#webshop">Webshop</a></li>
+                        <li><a href="hoofdpagina.php#ons">Over ons</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <p class="copyright">Beautje Cadeautje 2021@</p>
+            </div>
+        </div>
+    </footer>
 </html>
 <?php

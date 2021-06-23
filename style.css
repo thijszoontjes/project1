@@ -46,7 +46,8 @@ body{
 }
 .btn{
     position: relative;
-    display: block;
+    display: table;
+    vertical-align: center;
     color: black;
     text-align: center;
     font-size: 17px;
@@ -307,7 +308,7 @@ h1 {
     margin-left: 30px;
     display: block;
     margin-top: -40rem;
-    position: fixed;
+    position: absolute;
 }
 .informatie {
     height: 570px;
@@ -338,8 +339,8 @@ span{
     height: 55px;
     margin: 0 15px;
     perspective: 1000px;
-    margin-top: 39.5em;
-    margin-left: 58em;
+    margin-top: 37em;
+    margin-left: 59em;
 }
 span a{
     font-size: 19px;
@@ -376,3 +377,12 @@ span a:hover{
     transform: translateZ(-25px) rotateX(-90deg);
 }
 
+.producttitel {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 10rem;
+    padding: 0;
+}
+ .producttitel b {
+    color:  #FFA5A5;
+ }
