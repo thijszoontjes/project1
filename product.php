@@ -29,13 +29,10 @@
     <div class="informatie" ><u>Productinformatie:</u><br><br>Een sleutel hanger van een kat/poes Gemaakt van stof, katoen en placeholder
         <br>placeholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholder <br>
         placeholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholder</div>
-    <div class="container5">
-        <a href="#" class="btn btn2"><b>Webshop</b></a>
+
+    <span><a href="#"></a></span>
         <div class="card1">
-
             <img src="images/lucky_cat.png" alt="Denim Jeans" style="width:100%">
-
-
         </div>
     </div>
 </div>

@@ -19,6 +19,8 @@ body{
     top: 7%;
     left: 84%;
     transform: translate(-50%,-50%);
+
+
 }
 .welkom {
     margin-top: 150px;
@@ -54,8 +56,11 @@ body{
     padding: 10px 50px;
     overflow: hidden;
 
+}
 
 
+.btn a {
+   vertical-align: center;
 }
 #luckycat {
     float: right;
@@ -124,7 +129,7 @@ h1 {
 }
 .nav-bar{
     background-color: #FFA5A5;
-    margin-top: -20px;
+    margin-top: -23px;
 }
 .footer-dark h3 {
     margin-top:0;
@@ -275,7 +280,7 @@ h1 {
     width: 1800px;
     height: 200px;
     font-size: 2px;
-    filter: sepia() saturate(10000%) hue-rotate(30deg)
+    filter: sepia(0%) saturate(10000%) hue-rotate(30deg)
 }
 .container4 {
     height: 700px;
@@ -301,7 +306,7 @@ h1 {
     background-color: floralwhite;
     margin-left: 30px;
     display: block;
-    margin-top: 50px;
+    margin-top: -40rem;
     position: fixed;
 }
 .informatie {
@@ -326,7 +331,48 @@ u {
     margin-left: 1000px;
     margin-top: 650px;
 }
-
-.bk {
+span{
+    position: relative;
+    display: inline-flex;
+    width: 180px;
+    height: 55px;
+    margin: 0 15px;
+    perspective: 1000px;
+    margin-top: 39.5em;
+    margin-left: 58em;
+}
+span a{
+    font-size: 19px;
+    letter-spacing: 1px;
+    transform-style: preserve-3d;
+    transform: translateZ(-25px);
+    transition: transform .25s;
+    font-family: 'Montserrat', sans-serif;
 
 }
+span a:before,
+span a:after{
+    position: absolute;
+    content: "Koop";
+    height: 55px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #FFBDBD;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+span a:before{
+    color: #fff;
+    background: #FFA5A5;
+    transform: rotateY(0deg) translateZ(25px);
+}
+span a:after{
+    color: #000;
+    transform: rotateX(90deg) translateZ(25px);
+}
+span a:hover{
+    transform: translateZ(-25px) rotateX(-90deg);
+}
+
