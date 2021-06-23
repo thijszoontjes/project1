@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="hoofdpagina.html">
+    <link rel="stylesheet" href="hoofdpagina.php">
     <title>product</title>
 </head>
 <style>
@@ -16,11 +16,11 @@
     <div class="site-logo">
         <img src="images/logo" width="250px" height=125px" alt="logo">
     </div>
-<div class="middle" style="float: left">
-    <a href="hoofdpagina.html" class="btn btn1"><b>Homepagina</b></a>
-    <a href="hoofdpagina.html#webshop" class="btn btn2"><b>Webshop</b></a>
-    <a href="hoofdpagina.html#over" class="btn btn3"><b>Over ons</b></a>
-</div>
+    <div class="middle" style="float: left">
+        <a href="hoofdpagina.php" class="btn btn1"><b>Homepagina</b></a>
+        <a href="hoofdpagina.php#webshop" class="btn btn2"><b>Webshop</b></a>
+        <a href="hoofdpagina.php#over" class="btn btn3"><b>Over ons</b></a>
+    </div>
 </div>
 </body>
 
@@ -40,3 +40,4 @@
     </div>
 </div>
 </html>
+<?php
