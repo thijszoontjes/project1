@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="hoofdpagina.php">
+    <link rel="stylesheet" href="java.js    ">
     <title>product</title>
 </head>
 <style>
@@ -33,11 +34,19 @@
 
 
     <div class="producttitel"><b>Product titel </b> </div>
-    <span><a href="#"></a></span>
+    <span><a href="koop.php"></a></span>
 
         <div class="card1">
             <img src="images/lucky_cat.png" alt="Denim Jeans" style="width:100%">
         </div>
+<!--
+    <div id="clothes">
+        <img src="images/lucky_cat.png" id="clothing">
+        <button onclick="change('veeg.png')">Click here</button>
+        <button onclick="change2()"> Click here</button>
+        <button onclick="change3()"> Click here</button>
+    </div>
+-->
     </div>
 
 <br> <br> <br> <br><br> <br><br> <br>
@@ -56,6 +65,7 @@
                 </div>
                 <p class="copyright">Beautje Cadeautje 2021@</p>
             </div>
+
         </div>
     </footer>
 </html>
