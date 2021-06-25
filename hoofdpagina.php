@@ -118,6 +118,7 @@
         <img id="ons" src="images/lucky_cat.png" alt="f">
     </div>
 </div>
+
 <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
 <div class="footer-dark">
 
@@ -132,7 +133,7 @@
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
-                <p class="copyright">Beautje Cadeautje 2021@</p>
+                <p class="copyright">Bootje Cadeautje 2021@</p>
             </div>
         </div>
     </footer>

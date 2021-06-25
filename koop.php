@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="test.css">
     <link rel="stylesheet" href="hoofdpagina.php">
     <title>kooppagina</title>
 </head>
@@ -17,8 +18,9 @@
         <a href="hoofdpagina.php#over" class="btn btn3"><b>Over ons</b></a>
     </div>
 </div>
-
-<br> <br> <br> <br><br> <br><br> <br> <br> <br> <br> <br><br> <br><br> <br><br> <br> <br> <br><br> <br><br> <br><br> <br> <br> <br><br> <br><br> <br><br> <br> <br> <br><br> <br><br> <br> <br> <br> <br> <br><br> <br><br> <br>
+<div class="overzicht"><h1>Overzicht Product</h1></div>
+<span><a href="#"></a></span>
+<br> <br> <br> <br><br> <br><br>><br> <br> <br> <br><br> <br><br> <br> <br> <br> <br> <br><br> <br><br> <br>
 <div class="footer-dark">
 
     <footer>
@@ -32,7 +34,7 @@
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
-                <p class="copyright">Beautje Cadeautje 2021@</p>
+                <p class="copyright">Bootje Cadeautje 2021@</p>
             </div>
 
         </div>

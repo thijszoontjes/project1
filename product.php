@@ -63,7 +63,7 @@
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
-                <p class="copyright">Beautje Cadeautje 2021@</p>
+                <p class="copyright">Bootje Cadeautje 2021@</p>
             </div>
 
         </div>
