@@ -2,7 +2,7 @@
     width: 80%;
     height: 600px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    background-color: lightgrey;
+    background-color: lightpink;
     margin: auto;
     margin-top: 50px;
 }
@@ -50,4 +50,11 @@ span a:after{
 }
 span a:hover{
     transform: translateZ(-25px) rotateX(-90deg);
+}
+.betaal {
+    width: 80%;
+    height: 70rem;
+    background-color: #FFA5A5;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: 2px solid black;
 }

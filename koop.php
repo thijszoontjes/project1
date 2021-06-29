@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="hoofdpagina.php">
     <title>kooppagina</title>
 </head>
+<style>
+    body {
+        background-color: rgba(255,204,204, 0.4);
+    }
+</style>
 <body>
 <div class="nav-bar">
     <div class="site-logo">
@@ -18,7 +23,17 @@
         <a href="hoofdpagina.php#over" class="btn btn3"><b>Over ons</b></a>
     </div>
 </div>
-<div class="overzicht"><h1>Overzicht Product</h1></div>
+<div class="overzicht"><h1>Overzicht Product</h1>
+    <label for="fname">Voornaam:</label>
+    <input type="text" id="fname" name="fname">
+    <label for="fname">Voornaam:</label>
+    <input type="text" id="fname" name="fname">
+    <label for="fname">Voornaam:</label>
+    <input type="text" id="fname" name="fname">
+    <label for="fname">Voornaam:</label>
+    <input type="text" id="fname" name="fname">
+
+</div>
 <span><a href="#"></a></span>
 <br> <br> <br> <br><br> <br><br>><br> <br> <br> <br><br> <br><br> <br> <br> <br> <br> <br><br> <br><br> <br>
 <div class="footer-dark">
