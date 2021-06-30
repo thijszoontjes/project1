@@ -5,6 +5,8 @@
     background-color: lightpink;
     margin: auto;
     margin-top: 50px;
+    border-radius: 1%;
+
 }
 
 span{
@@ -57,4 +59,25 @@ span a:hover{
     background-color: #FFA5A5;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border: 2px solid black;
+}
+input {
+display: block;
+width: 350px;
+    height: 40px;
+    font-weight: bold;
+
+    margin-left: 230px;
+
+}
+.row1 {
+     white-space: pre;
+ }
+
+.row2 {
+    margin-left: 700px;
+    margin-top: -455px;
+}
+label i {
+    margin-left: 190px;
+
 }
