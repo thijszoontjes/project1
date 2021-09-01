@@ -131,6 +131,7 @@ h1 {
 .nav-bar{
     background-color: #FFA5A5;
     margin-top: -23px;
+    width: 100%;
 }
 
 .footer-dark h3 {
@@ -387,3 +388,10 @@ span a:hover{
  .producttitel b {
     color:  #FFA5A5;
  }
+
+@media only screen and (max-width: 800px) {
+    /* For mobile phones: */
+    .nav-bar {
+        width: 100%;
+    }
+}

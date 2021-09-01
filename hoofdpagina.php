@@ -30,6 +30,7 @@
 <div class="welkom"><h1> Welkom op onze webshop!<br> Bootje Cadeautje</h1></div>
 
 <img id="luckycat" src="images/lucky_cat.png" alt="png">
+
 <div class="ondertext"><h3> Een webshop voor al uw spullen! tot sleutel hangers tot katten PLaceholderPLaceholder<br>Execute
         order 66eholderPLaceholderPLaceholderPL<br>aceholderPLaceholderPLaceholderPLaceholderPLaceholderPLaceholderPLaceholderPLaceholder<br>aceholderPLaceholderPLaceholderPLaceholderPLaceholderPLaceholderPLaceholderPLaceholder<<br>aceholderPLaceholderPLaceholderPLaceholderPLaceholderPLaceholderPLaceholderPLaceholder<br>aceholderPLaceholderPLaceholderPLaceholderPLaceholderPLaceholderPLaceholderPLaceholder<<br>aceholderPLaceholderPLaceholderPLaceholderPLaceholderPLaceholderPLaceholderPLaceholder<<br>aceholderPLaceholderPLaceholderPLaceholderPLaceholderPLaceholderPLaceholderPLaceholder<
     </h3></div>
