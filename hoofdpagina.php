@@ -17,9 +17,10 @@
 <div class="bk"></div>
 <img>
 <div class="nav-bar">
-    <div class="site-logo">
-        <img src="images/logo" width="250px" height=125px" alt="logo">
-
+    <a href="hoofdpagina.php">
+   <div class="site-logo">
+      <img   src= "images/logo"  width="250px" height=125px" alt="logo">
+    </a>
         <div class="middle" style="float: left">
             <a href="" class="btn btn1"><b>Homepagina</b></a>
             <a href="#webshop" class="btn btn2"><b>Webshop</b></a>
