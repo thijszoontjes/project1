@@ -32,9 +32,8 @@
 
 <img id="luckycat" src="images/lucky_cat.png" alt="png">
 
-<div class="ondertext"><h3> Een webshop voor al uw spullen! tot sleutel hangers tot katten PLaceholderPLaceholder<br>Execute
-        order 66eholderPLaceholderPLaceholderPL<br>aceholderPLaceholderPLaceholderPLaceholderPLaceholderPLaceholderPLaceholderPLaceholder<br>aceholderPLaceholderPLaceholderPLaceholderPLaceholderPLaceholderPLaceholderPLaceholder<<br>aceholderPLaceholderPLaceholderPLaceholderPLaceholderPLaceholderPLaceholderPLaceholder<br>aceholderPLaceholderPLaceholderPLaceholderPLaceholderPLaceholderPLaceholderPLaceholder<<br>aceholderPLaceholderPLaceholderPLaceholderPLaceholderPLaceholderPLaceholderPLaceholder<<br>aceholderPLaceholderPLaceholderPLaceholderPLaceholderPLaceholderPLaceholderPLaceholder<
-    </h3></div>
+<div class="ondertext"><h3> Een webshop voor al uw spullen! Van sleutelhangers tot prachtige naaiwerkjes.</h3></div>
+
 <img id="veeg" src="images/veeg.png" alt="veeg">
 <div id="webshop" class="webshop"><h1><u>Webshop</u></h1></div>
 <div class="container1">
