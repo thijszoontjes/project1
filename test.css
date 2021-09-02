@@ -67,6 +67,19 @@ span a:hover{
     border-width: 2px;
     border-color: #ff8a8a;
     border-radius: 5px;
+    font-size: large;
+    color: #ff8a8a;
+}
+
+.bestelbtn:hover{
+    margin-left: 775px;
+    margin-top: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ff8a8a;
+    border-radius: 5px;
+    background-color: #ff8a8a;
+    color: white;
 }
 
 input {
@@ -74,7 +87,6 @@ display: block;
 width: 350px;
     height: 40px;
     font-weight: bold;
-
     margin-left: 230px;
 
 }
