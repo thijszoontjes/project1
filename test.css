@@ -60,6 +60,15 @@ span a:hover{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border: 2px solid black;
 }
+.bestelbtn{
+    margin-left: 775px;
+    margin-top: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ff8a8a;
+    border-radius: 5px;
+}
+
 input {
 display: block;
 width: 350px;
@@ -76,6 +85,13 @@ width: 350px;
 .row2 {
     margin-left: 700px;
     margin-top: -455px;
+}
+
+.betaalvlak{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ff8a8a;
+    border-radius: 5px;
 }
 label i {
     margin-left: 190px;
