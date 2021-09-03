@@ -11,8 +11,7 @@ $cvv = filter_input(INPUT_POST, 'cvv');
 if (!empty($naam) && !empty($postcode)&& !empty($stad)&& !empty($kaarthouder)&& !empty($kaartnummer)&& !empty($vervaldatum)&& !empty($cvv)) {
     echo "";
     if (!empty($email)) {
-
-            $host = "localhost";
+          $host = "localhost";
             $dbusername = "root";
             $dbpassword = "";
             $dbname = "bootje";
@@ -43,3 +42,4 @@ values ('$naam','$email','$postcode ',' $stad ',' $kaarthouder ',' $kaartnummer 
         die();
 
 }
+

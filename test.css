@@ -61,7 +61,7 @@ span a:hover{
     border: 2px solid black;
 }
 .bestelbtn{
-    margin-left: 775px;
+    margin-left: 420px;
     margin-top: 15px;
     border-style: solid;
     border-width: 2px;
@@ -72,7 +72,7 @@ span a:hover{
 }
 
 .bestelbtn:hover{
-    margin-left: 775px;
+    margin-left: 420px;
     margin-top: 15px;
     border-style: solid;
     border-width: 2px;
@@ -112,3 +112,4 @@ label i {
 ::placeholder {
 color: darkgrey;
 }
+
