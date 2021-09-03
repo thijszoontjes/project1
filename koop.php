@@ -28,28 +28,28 @@
 <div class="row1" id="database">
     <form method="post" action="database.php">
             <label for="fname"><i class="fa fa-user"></i>Volledige Naam:</label>
-            <input type="text" id="fname" name="naam" placeholder="Sjonnie Welling">
+            <input type="text" class="betaalvlak" id="fname" name="naam" placeholder="Sjonnie Welling">
             <label for="email"><i class="fa fa-envelope"></i> Email:</label>
-            <input type="text" id="email" name="email" placeholder="sjonnie@voorbeeld.com">
+            <input type="text" class="betaalvlak" id="email" name="email" placeholder="sjonnie@voorbeeld.com">
             <label for="adr"><i class="fa fa-address-card-o"></i> Straat + Huisnummer:</label>
-            <input type="text" id="adr" name="postcode" placeholder="Ligthartstraat , 69 ">
+            <input type="text" class="betaalvlak" id="adr" name="postcode" placeholder="Ligthartstraat , 69 ">
             <label for="city"><i class="fa fa-institution"></i> Stad + Postcode:</label>
-            <input type="text" id="city" name="stad" placeholder="Heemskerk , 1234AB ">
+            <input type="text" class="betaalvlak" id="city" name="stad" placeholder="Heemskerk , 1234AB ">
 
     <div class="row2" id="database">
         <label for="fname"><i class="fa fa-user"></i>Kaarthouder Naam:</label>
-        <input type="text" id="fname" name="kaarthouder" placeholder="Sjonnie Welling">
+        <input type="text" class="betaalvlak" id="fname" name="kaarthouder" placeholder="Sjonnie Welling">
         <label for="email"><i class="fa fa-envelope"></i> Credit Card nummer:  </label>
-        <input type="text" id="email" name="kaartnummer" placeholder="1111-22222-3333-4444">
+        <input type="text" class="betaalvlak" id="email" name="kaartnummer" placeholder="1111-22222-3333-4444">
         <label for="adr"><i class="fa fa-address-card-o"></i>Verval datum kaart:</label>
-        <input type="text" id="adr" name="vervaldatum" placeholder="September 2021 ">
+        <input type="text" class="betaalvlak" id="adr" name="vervaldatum" placeholder="September 2021 ">
         <label for="city"><i class="fa fa-institution"></i> CVV:</label>
-        <input type="text" id="city" name="cvv" placeholder="123 ">
+        <input type="text" class="betaalvlak" id="city" name="cvv" placeholder="123 ">
 
     </div>
 </div>
 </div>
-<input  id="bestel" type="submit" value="Bestel">
+<input class="bestelbtn"  id="bestel" type="submit" value="Bestel">
 <br> <br> <br> <br><br> <br><br>><br> <br> <br> <br><br> <br><br> <br> <br> <br> <br> <br><br> <br><br> <br>
 <div class="footer-dark">
 
