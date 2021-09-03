@@ -10,6 +10,22 @@ body{
 
 }
 
+.centerItems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.greenText{
+    color: #004000;
+    font-style: italic;
+}
+
+.redText{
+    color: #950000;
+    font-style: italic;
+}
+
 .container {
 }
 
@@ -59,7 +75,7 @@ body{
 }
 
 .btn a {
-   vertical-align: center;
+    vertical-align: center;
 }
 #luckycat {
     float: right;
@@ -120,6 +136,9 @@ h1 {
 }
 
 .footer-dark {
+    float: left;
+    width: 100%;
+    height: 5%;
     padding:50px 0;
     color:#f0f9ff;
     background-color:#282d32;
@@ -129,6 +148,7 @@ h1 {
     background-color: #FFA5A5;
     margin-top: -23px;
     width: 100%;
+
 }
 
 .footer-dark h3 {
@@ -321,6 +341,97 @@ h1 {
     font-size: 20px;
 }
 
+
+/*Betaalformulier*/
+#formTable{
+    float: left;
+    width: 100%;
+    height: fit-content;
+    table-layout: fixed;
+
+}
+
+#formTable td{
+
+}
+tr {
+    text-align: center;
+}
+
+#formTable input{
+    height: fit-content;
+    width: 60%;
+    font-size: 1vw;
+}
+
+#formTable label{
+    height: fit-content;
+    width: 60%;
+    padding-left: 20px;
+    font-size: 1vw;
+    font-weight: bold;
+    /*border-left: 5px solid black;*/
+}
+
+.betaal {
+    width: 60%;
+    height: 70rem;
+    background-color: #FFA5A5;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.bestelbtn{
+    float: left;
+    width: 50%;
+    margin-left: 300px;
+    margin-top: 50px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ff8a8a;
+    border-radius: 5px;
+    font-size: large;
+    color: #ff8a8a;
+}
+
+.bestelbtn:hover{
+    /*margin-left: 420px;*/
+    /*margin-top: 15px;*/
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ff8a8a;
+    border-radius: 5px;
+    background-color: #ff8a8a;
+    color: white;
+}
+
+/*Paypal button*/
+#paypalImg{
+    /*float: left;*/
+    transform: scale(0.25);
+    margin-top: -150px;
+    white-space: unset;
+}
+
+#paypalImg:hover{
+    cursor: pointer;
+    filter: brightness(125%);
+}
+
+form input {
+    width: 100%;
+}
+
+
+#bestelStatus{
+    float: left;
+    width: 100%;
+    height: 5%;
+    margin-top: 1.5%;
+    text-align: center;
+    font-size: 1vw;
+    /*border: 1px solid red;*/
+}
+
+
 u {
     color: #FFA5A5;
 }
@@ -382,16 +493,11 @@ span a:hover{
     margin-left: 10rem;
     padding: 0;
 }
- .producttitel b {
+.producttitel b {
     color:  #FFA5A5;
- }
-
-@media only screen and (max-width: 800px) {
-    /* For mobile phones: */
-    .nav-bar {
-        width: 100%;
-    }
 }
+
+
 html::-webkit-scrollbar {
     width: 15px;
 }
@@ -404,3 +510,8 @@ html::-webkit-scrollbar-thumb {
     background: transparent;
     box-shadow: 0 0 0 100vh darkgrey;
 }
+
+#anders {
+    text-align: center;
+}
+

@@ -12,7 +12,7 @@ function checkPaypalFields($inputArray){
     $city = $inputArray["city"];
     $cvv = $inputArray["cvv"];
 
-    if (!empty($name) && !empty($cardHolder) && !empty($email) && !empty($cardNumber) && !empty($address) && !empty($expiration) && !empty($city) && !empty($cvv)){
+    if (!empty($naam) && !empty($cardHolder) && !empty($email) && !empty($cardNumber) && !empty($address) && !empty($expiration) && !empty($city) && !empty($cvv)){
         $host = "localhost";
         $dbusername = "root";
         $dbpassword = "";
@@ -29,7 +29,7 @@ function checkPaypalFields($inputArray){
             $sql = "INSERT INTO test (naam, email , postcode , stad , kaarthouder , kaartnummer , vervaldatum , cvv)
                     values ('$name','$email','$address ',' $city ',' $cardHolder ',' $cardNumber ',' $expiration','$cvv')";
             if ($conn->query($sql)) {
-                echo "New record is inserted sucessfully";
+                echo "RECORD INSERTED";
             } else {
                 echo "Error: " . $sql . " " . $conn->error;
             }
@@ -37,7 +37,7 @@ function checkPaypalFields($inputArray){
         }
     }
     else{
-        echo "Niet alle gegevens zijn ingevoerd (paypal)";
+        echo "MISSING DATA";
     }
 }
 
@@ -67,7 +67,7 @@ function checkAllFields($inputArray){
             $sql = "INSERT INTO test (naam, email , postcode , stad)
                     values ('$name','$email','$address ','$city')";
             if ($conn->query($sql)) {
-                echo "New record is inserted sucessfully";
+                echo "RECORD INSERTED";
             } else {
                 echo "Error: " . $sql . " " . $conn->error;
             }
@@ -75,7 +75,7 @@ function checkAllFields($inputArray){
         }
     }
     else{
-        echo "Niet alle gegevens zijn ingevoerd (non-paypal)";
+        echo "MISSING DATA";
     }
 }
 
@@ -89,7 +89,7 @@ function debug($var){
 if(isset($_POST["usingPayPal"]) && isset($_POST["inputArray"])){
     $usingPayPal = filter_var($_POST["usingPayPal"], FILTER_VALIDATE_BOOLEAN);
     $inputArray = $_POST["inputArray"];
-    debug($inputArray);
+    //debug($inputArray);
 
     if($usingPayPal){
         checkPaypalFields($inputArray);
@@ -108,7 +108,7 @@ if(isset($_POST["usingPayPal"]) && isset($_POST["inputArray"])){
 //$kaartnummer = filter_input(INPUT_POST, 'kaartnummer');
 //$vervaldatum= filter_input(INPUT_POST, 'vervaldatum');
 //$cvv = filter_input(INPUT_POST, 'cvv');
-
+//
 //if (!empty($naam) && !empty($postcode)&& !empty($stad)&& !empty($kaarthouder)&& !empty($kaartnummer)&& !empty($vervaldatum)&& !empty($cvv)) {
 //    echo "";
 //    if (!empty($email)) {

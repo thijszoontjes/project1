@@ -22,7 +22,7 @@ $(document).ready(function(){
         }
     }
 
-
+//aiit
     //Roept database.php op en geeft aan op welke manier er wordt betaald
     function payingMethod(usingPayPal){
         const inputArray = getInputArray();
@@ -37,8 +37,13 @@ $(document).ready(function(){
                 inputArray: inputArray
             },
 
-            success: function(response){
-                console.log("payingMethod success:", response, usingPayPal);
+            success: function(status){
+                if(status === "RECORD INSERTED"){
+                    $("#bestelStatus").empty().append("<span class='greenText'>De bestelling is toegevoegd.</span>");
+                }
+                else if(status === "MISSING DATA"){
+                    $("#bestelStatus").empty().append("<span class='redText'>Niet alle velden zijn ingevuld.</span>");
+                }
             },
 
             error: function(response){
