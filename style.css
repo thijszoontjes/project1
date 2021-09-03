@@ -395,3 +395,15 @@ span a:hover{
         width: 100%;
     }
 }
+html::-webkit-scrollbar {
+    width: 15px;
+}
+
+html::-webkit-scrollbar-track {
+    background:  linear-gradient(0deg, rgba(238 , 0 , 238) 0%, rgba(255, 99, 71 ,1) 100%);
+}
+
+html::-webkit-scrollbar-thumb {
+    background: transparent;
+    box-shadow: 0 0 0 100vh darkgrey;
+}
