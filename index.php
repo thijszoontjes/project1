@@ -18,7 +18,7 @@
 <div class="bk"></div>
 <img>
 <div class="nav-bar">
-    <a href="hoofdpagina.php">
+    <a href="index.php">
    <div class="site-logo">
       <img   src= "images/logo"  width="250px" height=125px" alt="logo">
     </a>

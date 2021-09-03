@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="hoofdpagina.php">
+    <link rel="stylesheet" href="index.php">
     <link rel="stylesheet" href="java.js    ">
     <title>product</title>
 </head>
@@ -18,9 +18,9 @@
         <img src="images/logo" width="250px" height=125px" alt="logo">
     </div>
     <div class="middle" style="float: left">
-        <a href="hoofdpagina.php" class="btn btn1"><b>Homepagina</b></a>
-        <a href="hoofdpagina.php#webshop" class="btn btn2"><b>Webshop</b></a>
-        <a href="hoofdpagina.php#over" class="btn btn3"><b>Over ons</b></a>
+        <a href="index.php" class="btn btn1"><b>Homepagina</b></a>
+        <a href="index.php#webshop" class="btn btn2"><b>Webshop</b></a>
+        <a href="index.php#over" class="btn btn3"><b>Over ons</b></a>
     </div>
 </div>
 </body>
@@ -58,8 +58,8 @@
                 <div class="col-sm-6 col-md-3 item">
                     <h3>Services</h3>
                     <ul>
-                        <li><a href="hoofdpagina.php#webshop">Webshop</a></li>
-                        <li><a href="hoofdpagina.php#ons">Over ons</a></li>
+                        <li><a href="index.php#webshop">Webshop</a></li>
+                        <li><a href="index.php#ons">Over ons</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </div>

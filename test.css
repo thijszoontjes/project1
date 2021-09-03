@@ -53,46 +53,19 @@ span a:after{
 span a:hover{
     transform: translateZ(-25px) rotateX(-90deg);
 }
-.betaal {
-    width: 80%;
-    height: 70rem;
-    background-color: #FFA5A5;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border: 2px solid black;
-}
-.bestelbtn{
-    margin-left: 420px;
-    margin-top: 15px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #ff8a8a;
-    border-radius: 5px;
-    font-size: large;
-    color: #ff8a8a;
-}
 
-.bestelbtn:hover{
-    margin-left: 420px;
-    margin-top: 15px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #ff8a8a;
-    border-radius: 5px;
-    background-color: #ff8a8a;
-    color: white;
-}
 
-input {
-display: block;
-width: 350px;
-    height: 40px;
-    font-weight: bold;
-    margin-left: 230px;
+/*input {*/
+/*display: block;*/
+/*width: 350px;*/
+/*    height: 40px;*/
+/*    font-weight: bold;*/
+/*    margin-left: 230px;*/
 
-}
+/*}*/
 .row1 {
-     white-space: pre;
- }
+    white-space: pre;
+}
 
 .row2 {
     margin-left: 700px;
@@ -106,10 +79,11 @@ width: 350px;
     border-radius: 5px;
 }
 label i {
-    margin-left: 190px;
+    /*margin-left: 190px;*/
 
 }
 ::placeholder {
-color: darkgrey;
+    color: darkgrey;
 }
+
 
