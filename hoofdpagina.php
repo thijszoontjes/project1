@@ -12,6 +12,7 @@
     <meta charset="UTF-8">
     <title>Beautjes Cadeatjes</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="test.css">
 </head>
 
 <div class="bk"></div>

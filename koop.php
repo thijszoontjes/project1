@@ -50,7 +50,9 @@
 </div>
 </div>
 <input class="bestelbtn"  id="bestel" type="submit" value="Bestel">
+
 <br> <br> <br> <br><br> <br><br>><br> <br> <br> <br><br> <br><br> <br> <br> <br> <br> <br><br> <br><br> <br>
+
 <div class="footer-dark">
 
     <footer>

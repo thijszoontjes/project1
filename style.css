@@ -37,7 +37,7 @@ body{
 .ondertext {
     margin-left: 50px;
     padding: 0;
-    font-size: xxx-large;
+    font-size: xx-large;
     color: #FFA5A5;
 }
 
@@ -397,7 +397,7 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-    background:  linear-gradient(0deg, rgba(238 , 0 , 238) 0%, rgba(255, 99, 71 ,1) 100%);
+    background:  linear-gradient(0deg, rgba(238 , 0 , 238,1) 0%, rgba(255, 99, 71 ,1) 100%);
 }
 
 html::-webkit-scrollbar-thumb {
