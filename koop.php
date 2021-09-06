@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="test.css">
     <link rel="stylesheet" href="index.php">
+    <link rel="stylesheet" href="java.js ">
     <!--<link rel="stylesheet" href="database.php">-->
 
     <script src="jquery/jquery-3.3.1.min.js"></script> <!--Importeert jQuery-->
@@ -122,6 +123,6 @@
 </body>
 </html>
 <?php
-
+include "database.php";
 
 

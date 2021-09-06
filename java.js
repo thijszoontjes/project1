@@ -38,6 +38,7 @@ $(document).ready(function(){
             },
 
             success: function(status){
+                console.log(status);
                 if(status === "RECORD INSERTED"){
                     $("#bestelStatus").empty().append("<span class='greenText'>De bestelling is toegevoegd.</span>");
                 }

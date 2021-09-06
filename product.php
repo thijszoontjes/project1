@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="index.php">
-    <link rel="stylesheet" href="java.js    ">
+    <link rel="stylesheet" href="jquery ">
     <title>product</title>
 </head>
 <style>
