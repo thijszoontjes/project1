@@ -474,15 +474,18 @@ span a:after{
     box-sizing: border-box;
     border-radius: 5px;
 }
+
 span a:before{
     color: #fff;
     background: #FFA5A5;
     transform: rotateY(0deg) translateZ(25px);
 }
+
 span a:after{
     color: #000;
     transform: rotateX(90deg) translateZ(25px);
 }
+
 span a:hover{
     transform: translateZ(-25px) rotateX(-90deg);
 }
@@ -496,7 +499,6 @@ span a:hover{
 .producttitel b {
     color:  #FFA5A5;
 }
-
 
 html::-webkit-scrollbar {
     width: 15px;
@@ -515,3 +517,42 @@ html::-webkit-scrollbar-thumb {
     text-align: center;
 }
 
+@media (max-width: 463px){
+    .welkom{
+        font-size: 13px;
+        margin-left: 47px;
+    }
+    .btn{
+        padding: 25px 25px;
+    }
+    .btn b{
+        display: none;
+    }
+    .btn1{
+        background: url("https://png.pngtree.com/png-vector/20190223/ourlarge/pngtree-vector-house-icon-png-image_695726.jpg");
+        background-size: 50px 50px;
+    }
+    .btn2{
+        background: url("https://www.nicepng.com/png/detail/253-2534370_png-file-shopping-cart-line-icon.png");
+        background-size: 50px 50px;
+    }
+    .btn3{
+        background: url("https://www.nicepng.com/png/detail/903-9033759_questions-black-spinning-question-mark.png");
+        background-size: 50px 50px;
+    }
+    .middle{
+        padding-right: 100px;
+    }
+    #luckycat{
+        float: left;
+        height: 400px;
+        width: 450px;
+        margin-top: 20px;
+    }
+    #veeg{
+        width:400px;
+    }
+    .ondertext{
+        font-size: 16px;
+    }
+}

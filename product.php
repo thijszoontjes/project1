@@ -15,7 +15,7 @@
 <body>
 <div class="nav-bar">
     <div class="site-logo">
-        <img src="images/logo" width="250px" height=125px" alt="logo">
+        <a href="index.php"><img src="images/logo" width="250px" height=125px" alt="logo"></a>
     </div>
     <div class="middle" style="float: left">
         <a href="index.php" class="btn btn1"><b>Homepagina</b></a>

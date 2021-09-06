@@ -3,13 +3,14 @@
 <head>
     <style>
         body {
-            background-color: rgba(255,204,204, 0.4);
+            background-color: rgba(255, 204, 204, 0.4);
             background-image: url("#");
             background-blend-mode: multiply;
             background-size: cover;
         }
     </style>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
     <title>Beautjes Cadeatjes</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="test.css">
@@ -19,16 +20,17 @@
 <img>
 <div class="nav-bar">
     <a href="index.php">
-   <div class="site-logo">
-      <img   src= "images/logo"  width="250px" height=125px" alt="logo">
+        <div class="site-logo">
+            <img src="images/logo" width="250px" height=125px" alt="logo">
     </a>
-        <div class="middle" style="float: left">
-            <a href="" class="btn btn1"><b>Homepagina</b></a>
-            <a href="#webshop" class="btn btn2"><b>Webshop</b></a>
-            <a href="#over" class="btn btn3"><b>Over ons</b></a>
-        </div>
+    <div class="middle" style="float: left">
+        <a href="" class="btn btn1"><b>Homepagina</b></a>
+        <a href="#webshop" class="btn btn2"><b>Webshop</b></a>
+        <a href="#over" class="btn btn3"><b>Over ons</b></a>
     </div>
 </div>
+</div>
+
 <div class="welkom"><h1> Welkom op onze webshop!<br> Bootje Cadeautje</h1></div>
 
 <img id="luckycat" src="images/lucky_cat.png" alt="png">
