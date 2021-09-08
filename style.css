@@ -560,3 +560,54 @@ html::-webkit-scrollbar-thumb {
         font-size: 16px;
     }
 }
+
+* {
+    box-sizing: border-box;
+}
+#onscat{
+   margin-left: 300px;
+    margin-bottom:  500px;
+}
+.row8 {
+    transform: scale(0.8);
+
+}
+
+/* Style the container/contact section */
+.container {
+    border-radius: 50px;
+    background-color: floralwhite;
+    padding: 10px;
+  border-style: solid;
+    border-color: #FFA5A5;
+    height: 850px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row8:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.container h2 {
+
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+    #onscat {
+        margin-left: 30px;
+        transform: scale(0.8);
+    }
+}

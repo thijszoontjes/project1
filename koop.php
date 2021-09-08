@@ -25,7 +25,7 @@
     <div class="middle" style="float: left">
         <a href="index.php" class="btn btn1"><b>Homepagina</b></a>
         <a href="index.php#webshop" class="btn btn2"><b>Webshop</b></a>
-        <a href="index.php#over" class="btn btn3"><b>Over ons</b></a>
+        <a href="index.php#overons" class="btn btn3"><b>Over ons</b></a>
     </div>
 </div>
 
