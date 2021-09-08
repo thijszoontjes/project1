@@ -22,7 +22,6 @@
     }
 </style>
 <div class="bk"></div>
-<img>
 <div class="nav-bar">
     <a href="index.php">
         <div class="site-logo">
