@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="index.php">
     <link rel="stylesheet" href="jquery ">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <title>product</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -35,26 +36,19 @@
 
 
     <div class="producttitel"><b>Product titel </b> </div>
-    <span><a href="koop.php"></a></span>
+  <span><a href="koop.php"></a></span>
 
         <div class="card1">
             <img src="images/lucky_cat.png" alt="Denim Jeans" style="width:100%">
         </div>
-<!--
-    <div id="clothes">
-        <img src="images/lucky_cat.png" id="clothing">
-        <button onclick="change('veeg.png')">Click here</button>
-        <button onclick="change2()"> Click here</button>
-        <button onclick="change3()"> Click here</button>
-    </div>
--->
+
     </div>
 
-<br> <br> <br> <br><br> <br><br> <br>
+<br> <br> <br> <br><br> <br><br> <br><br> <br> <br> <br><br> <br><br> <br>
 <div class="footer-dark">
 
     <footer>
-        <div class="container">
+        <div class="container9">
             <div class="row">
                 <div class="col-sm-6 col-md-3 item">
                     <h3>Services</h3>
