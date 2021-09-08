@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="index.php">
     <link rel="stylesheet" href="java.js ">
     <!--<link rel="stylesheet" href="database.php">-->
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="jquery/jquery-3.3.1.min.js"></script> <!--Importeert jQuery-->
     <script src="java.js"></script>
     <title>kooppagina</title>

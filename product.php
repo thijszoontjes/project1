@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="index.php">
     <link rel="stylesheet" href="jquery ">
     <title>product</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <style>
     body {
