@@ -30,12 +30,13 @@ body{
 }
 
 /*http://www.autogeschiedenis.nl/images/auto-dealer.jpg */
-.middle{
+.middle {
     position: absolute;
-    top: 7%;
-    left: 84%;
-    transform: translate(-50%,-50%);
+    top: 60px;
+    left: 250px;
+    transform: translate(0%,-50%);
 }
+
 .welkom {
     margin-top: 150px;
     color: #ff8a8a;
@@ -147,7 +148,7 @@ h1 {
 
 .nav-bar{
     background-color: #FFA5A5;
-    margin-top: -23px;
+    margin-top: auto;
     width: 100%;
 
 }
