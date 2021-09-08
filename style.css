@@ -229,6 +229,8 @@ h1 {
 }
 .row {
     text-align: center;
+   white-space: unset;
+
 }
 
 .footer-dark .copyright {
@@ -245,6 +247,7 @@ h1 {
     margin: auto;
     text-align: center;
     background-color: floralwhite;
+    transform: scale(0.8);
 
 }
 .container1 {
