@@ -106,7 +106,7 @@
 <div class="footer-dark">
     <footer>
         <div class="container9">
-            <div class="row">
+            <div class="row9">
                 <div class="col-sm-6 col-md-3 item">
                     <h3>Services</h3>
                     <ul>
