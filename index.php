@@ -149,7 +149,7 @@
     <footer>
         <div class="container9">
             <div class="row">
-                <div class="col-sm-6 col-md-3 item">
+                <div>
                     <h3>Services</h3>
                     <ul>
                         <li><a href="index.php#webshop">Webshop</a></li>
