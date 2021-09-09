@@ -149,7 +149,7 @@
     <footer>
         <div class="container9">
             <div class="row">
-                <div>
+                <div style="text-align: center">
                     <h3>Services</h3>
                     <ul>
                         <li><a href="index.php#webshop">Webshop</a></li>
