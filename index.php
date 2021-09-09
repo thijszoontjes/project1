@@ -36,11 +36,11 @@
 </div>
 
 
-<div class="welkom"><h1> Welkom op onze webshop!<br> Bootje Cadeautje</h1></div>
+<div  class="welkom"><h1> Welkom op onze webshop!<br> Bootje Cadeautje</h1></div>
 
 <img id="luckycat" src="images/lucky_cat.png" alt="png">
 
-<div class="ondertext"><h3> Een webshop voor al uw spullen! Van sleutelhangers tot prachtige naaiwerkjes.</h3></div>
+<div class="ondertext"><h3> Een webshop voor al uw spullen! Van sleutelhangers tot prachtige naaiwerkjes.<br> Een webshop voor al uw spullen! Van sleutelhangers tot prachtige naaiwerkjes. <br>Een webshop voor al uw spullen! Van sleutelhangers tot prachtige naaiwerkjes.<br> Een webshop voor al uw spullen! Van sleutelhangers tot prachtige naaiwerkjes.</h3></div>
 
 <!--<img id="veeg" src="images/veeg.png" alt="veeg">-->
 <div id="webshop" class="webshop"><h1><u>Webshop</u></h1></div>
