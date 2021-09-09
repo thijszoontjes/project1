@@ -610,7 +610,9 @@ color: #FFA5A5;
         width: 100%;
         margin-top: 0;
     }
-
+#onscat {
+    margin: auto;
+}
 
 }
 @media screen and (max-width: 1325px) {
@@ -618,10 +620,7 @@ color: #FFA5A5;
         text-align: center;
         margin-top: 50px;
     }
-    #onscat {
-        margin-left: auto;
-        margin-right: auto;
-    }
+
 
 
 
@@ -636,3 +635,8 @@ color: #FFA5A5;
     }
 }
 
+@media screen and (min-width: 586px) and (max-width: 974px) {
+    #onscat {
+
+    }
+}
