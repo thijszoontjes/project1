@@ -569,11 +569,10 @@ html::-webkit-scrollbar-thumb {
     box-sizing: border-box;
 }
 #onscat{
-   margin-left: 300px;
-    margin-bottom:  500px;
+
 }
 .row8 {
-    transform: scale(0.8);
+    transform: scale(0.6);
 
 }
 
@@ -590,7 +589,7 @@ html::-webkit-scrollbar-thumb {
 /* Create two columns that float next to eachother */
 .column {
     float: left;
-    width: 50%;
+    width: 100%;
     margin-top: 6px;
 }
 
@@ -605,7 +604,7 @@ color: #FFA5A5;
 }
 
 
-@media screen and (max-width: 600px) {
+@media all and (max-width: 600px) {
     .column, input[type=submit] {
         width: 100%;
         margin-top: 0;
@@ -622,8 +621,6 @@ color: #FFA5A5;
     }
 
 
-
-
 }
 @media screen and (max-width: 1291px) {
     #luckycat{
@@ -635,8 +632,8 @@ color: #FFA5A5;
     }
 }
 
-@media screen and (min-width: 586px) and (max-width: 974px) {
+@media all and (min-width: 974px) {
     #onscat {
-
+transform: scale(0.8);
     }
 }

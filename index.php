@@ -138,9 +138,9 @@
                  src="https://wwf.be/sites/default/files/styles/full_1920x980/public/inline-images/mALbiBS4dU1dvmGr6vOejaKvdVvrQEnrAhUYSW97yhN8KnI36V.jpg?itok=daXsja6F"
                  style="width:100%">
         </div>
-        <div class="column">
-
-        </div>
+<!--        <div class="column">-->
+<!---->
+<!--        </div>-->
     </div>
 </div>
 <br> <br><br><br><br><br><br><br><br>
