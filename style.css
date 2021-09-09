@@ -144,6 +144,7 @@ h1 {
     padding:50px 0;
     color:#f0f9ff;
     background-color:#282d32;
+
 }
 
 .nav-bar{
@@ -228,7 +229,7 @@ h1 {
 .footer-dark .item.social > a:hover {
     opacity:0.9;
 }
-.row {
+.row9 {
     text-align: center;
    white-space: unset;
 
@@ -598,7 +599,7 @@ html::-webkit-scrollbar-thumb {
     clear: both;
 }
 .container h2 {
-
+color: #FFA5A5;
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */

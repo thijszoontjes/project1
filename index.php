@@ -29,7 +29,7 @@
     </a>
     <div class="middle" style="float: left">
         <a href="" class="btn btn1"><b>Homepagina</b></a>
-        <a href="#webshop" class="btn btn2"><b>Webshop</b></a>
+        <a href="#row" class="btn btn2"><b>Webshop</b></a>
         <a href="#overons" class="btn btn3"><b>Over ons</b></a>
     </div>
 </div>
@@ -44,7 +44,7 @@
 
 <!--<img id="veeg" src="images/veeg.png" alt="veeg">-->
 <div id="webshop" class="webshop"><h1><u>Webshop</u></h1></div>
-<div class="row">
+<div class="row" id="row">
     <div class="card col-12 col-sm-6 col-lg-4">
         <img src="images/lucky_cat.png" alt="Denim Jeans" style="width:100%">
         <h1>Sleutelhanger kat</h1>
