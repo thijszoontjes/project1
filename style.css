@@ -646,7 +646,7 @@ color: #FFA5A5;
     border-style: solid;
     border-color: #FFA5A5;
     width: 85%;
-    height: fit-content;
+    height: 5%;
 }
 h3 {
     text-align: center;
@@ -655,6 +655,7 @@ h3 {
 .abc {
     padding-left: 40px;
     color: #FFA5A5 ;
+    margin-left: auto;
 }
 
 .pqr {
@@ -677,6 +678,8 @@ h3 {
     list-style: none;
     line-height: 50px;
     color: #000;
+    text-align: center;
+
 }
 
 .col-md-2 {
@@ -758,4 +761,8 @@ h3 {
         margin: 0 auto;
         margin-right: 40px
     }
+}
+#productkat {
+    margin-left: 45%;
+
 }
