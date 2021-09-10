@@ -1,12 +1,14 @@
 html {
     scroll-behavior: smooth;
     font-family: Arial, serif;
+
 }
 
 body{
     margin: 0;
     padding: 0;
     z-index: auto;
+
 
 }
 
