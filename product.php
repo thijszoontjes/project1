@@ -69,12 +69,12 @@
                 </ul>
             </div>
             <div class="col-md-7"> <img id="productkat" src="images/lucky_cat.png" width="70%" height="75%"> </div>
-            <span><a href="koop.php"></a></span>
+
         </div>
     </div>
 
 </div>
-
+<span><a href="koop.php"></a></span>
 <br> <br> <br> <br><br> <br><br> <br><br> <br> <br> <br><br> <br><br> <br>
 <div class="footer-dark">
 
