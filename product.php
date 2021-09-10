@@ -59,7 +59,8 @@
     <div class="containers-body mt-4">
         <div class="row r3">
             <div id="knoppen" class="col-md-5 p-0 klo">
-                <ul>
+                <ul style="color: #FFA5A5">
+                    <li><h3><b>Product Beschrijving</b></h3></li>
                     <li>100% Katoen.</li>
                     <li>Vandaag bestelt? Morgen in huis!</li>
                     <li>Kostenloos terug sturen.</li>
