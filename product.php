@@ -76,7 +76,7 @@
     </div>
 
 </div>
-<span><a href="koop.php"></a></span>
+<span><a href="koop.php" style="text-decoration: none"></a></span>
 <br> <br> <br> <br><br> <br><br> <br><br> <br> <br> <br><br> <br><br> <br>
 <div class="footer-dark">
 
