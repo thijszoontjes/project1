@@ -675,7 +675,9 @@ h3 {
 .fa-star {
     color: yellow
 }
-
+li {
+    list-style-type: none;
+}
 #knoppen{
     list-style: none;
     line-height: 50px;

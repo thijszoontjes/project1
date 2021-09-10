@@ -60,14 +60,14 @@
         <div class="row r3">
             <div id="knoppen" class="col-md-5 p-0 klo">
                 <ul>
-                    <li>100% Quality</li>
-                    <li>Free Shipping</li>
-                    <li>Easy Returns</li>
-                    <li>12 Months Warranty</li>
-                    <li>EMI Starting from (On Credit Cards)</li>
-                    <li>Normal Delivery : 4-5 Days</li>
-                    <li>Express Delivery : 2-3 Days</li>
-                    <li>COD Available (All Over India)</li>
+                    <li>100% Katoen.</li>
+                    <li>Vandaag bestelt? Morgen in huis!</li>
+                    <li>Kostenloos terug sturen.</li>
+                    <li>Roestvrij Staal.</li>
+                    <li>Hoogste kwaliteit van Noord-Holland.</li>
+                    <li>Afmetingen: 5cm hoogte, 3 cm breedte.</li>
+                    <li>Ingebouwde spy camera</li>
+                    <li>Exclusieve onderdelen!</li>
                 </ul>
             </div>
             <div class="col-md-7"><img id="productkat" src="images/lucky_cat.png" width="70%" height="75%"></div>
