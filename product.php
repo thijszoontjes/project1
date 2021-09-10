@@ -25,24 +25,55 @@
         <a href="index.php#overons" class="btn btn3"><b>Over ons</b></a>
     </div>
 </div>
-</body>
-
-<div class="container4">
-
-    <div class="informatie" ><u>Productinformatie:</u><br><br>Een sleutel hanger van een kat/poes Gemaakt van stof, katoen en placeholder
-        <br>placeholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholder <br>
-        placeholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholder
-        <br> <br> <u>Productkwalificaties:</u> <br><br> Lengte: <br> Hoogte: <br> Gewicht: <br><br> <u>Levering & Prijs:</u> <br><br> Voor morgen 00:00 besteld, morgen in huis! ($2,00 verzendkosten) <br> Prijs: $2,99 exl verzendkosten. <br><br>  </div>
 
 
-    <div class="producttitel"><b>Product titel </b> </div>
-  <span><a href="koop.php"></a></span>
+<!--<div class="container4">-->
+<!---->
+<!--    <div class="informatie" ><u>Productinformatie:</u><br><br>Een sleutel hanger van een kat/poes Gemaakt van stof, katoen en placeholder-->
+<!--        <br>placeholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholder <br>-->
+<!--        placeholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholder-->
+<!--        <br> <br> <u>Productkwalificaties:</u> <br><br> Lengte: <br> Hoogte: <br> Gewicht: <br><br> <u>Levering & Prijs:</u> <br><br> Voor morgen 00:00 besteld, morgen in huis! ($2,00 verzendkosten) <br> Prijs: $2,99 exl verzendkosten. <br><br>  </div>-->
+<!---->
+<!---->
+<!--    <div class="producttitel"><b>Product titel </b> </div>-->
+<!---->
+<!---->
+<!--        <div class="card1">-->
+<!--            <img src="images/lucky_cat.png" alt="Denim Jeans" style="width:100%">-->
+<!--        </div>-->
+<!---->
+<!--    </div>-->
+<div class="containers py-4 my-4 mx-auto d-flex flex-column">
+    <div class="header">
+        <div class="row r1">
+            <div class="col-md-9 abc">
+                <h1>Sleutelhanger kat </h1>
+                <h3>Prijs: $2.99</h3>
+            </div>
+            <div class="col-md-3 text-right pqr"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
 
-        <div class="card1">
-            <img src="images/lucky_cat.png" alt="Denim Jeans" style="width:100%">
         </div>
-
     </div>
+    <div class="containers-body mt-4">
+        <div class="row r3">
+            <div id="knoppen" class="col-md-5 p-0 klo">
+                <ul>
+                    <li>100% Quality</li>
+                    <li>Free Shipping</li>
+                    <li>Easy Returns</li>
+                    <li>12 Months Warranty</li>
+                    <li>EMI Starting from (On Credit Cards)</li>
+                    <li>Normal Delivery : 4-5 Days</li>
+                    <li>Express Delivery : 2-3 Days</li>
+                    <li>COD Available (All Over India)</li>
+                </ul>
+            </div>
+            <div class="col-md-7"> <img id="productkat" src="images/lucky_cat.png" width="70%" height="75%"> </div>
+            <span><a href="koop.php"></a></span>
+        </div>
+    </div>
+
+</div>
 
 <br> <br> <br> <br><br> <br><br> <br><br> <br> <br> <br><br> <br><br> <br>
 <div class="footer-dark">
@@ -63,6 +94,6 @@
 
         </div>
     </footer>
-
+</body>
 </html>
 <?php

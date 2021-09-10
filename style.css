@@ -85,7 +85,7 @@ body{
     margin-right: 280px;
 }
 
-h1 {
+h1  {
     text-align: center;
     margin-top: 10px;
 }
@@ -451,7 +451,6 @@ u {
     margin-top: 650px;
 }
 span{
-    position: relative;
     display: inline-flex;
     width: 180px;
     height: 55px;
@@ -471,7 +470,7 @@ span a{
 }
 span a:before,
 span a:after{
-    position: absolute;
+position: relative;
     content: "Koop";
     height: 55px;
     width: 180px;
@@ -632,8 +631,129 @@ color: #FFA5A5;
     }
 }
 
-@media all and (min-width: 974px) {
+@media screen and (min-width: 1183px) {
     #onscat {
-transform: scale(0.8);
+        margin-top: -180px;
+        transform: scale(0.8);
+    }
+}
+
+.containers {
+    background: #fff !important;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #FFA5A5;
+    width: 85%;
+    height: fit-content;
+}
+h3 {
+    text-align: center;
+    margin-top: 10px;
+}
+.abc {
+    padding-left: 40px;
+    color: #FFA5A5 ;
+}
+
+.pqr {
+    padding-right: 70px;
+    padding-top: 14px
+}
+
+.para {
+    float: right;
+    margin-right: 0;
+    padding-left: 80%;
+    top: 0
+}
+
+.fa-star {
+    color: yellow
+}
+
+#knoppen{
+    list-style: none;
+    line-height: 50px;
+    color: #000;
+}
+
+.col-md-2 {
+    padding-bottom: 20px;
+    font-weight: bold
+}
+
+
+.col-md-2 a {
+    text-decoration: none;
+    color: #000
+}
+
+.col-md-2.mio {
+    font-size: 12px;
+    padding-top: 7px
+}
+
+.des::after {
+    content: '.';
+    font-size: 0;
+    display: block;
+    border-radius: 20px;
+    height: 6px;
+    width: 55%;
+    background: yellow;
+    margin: 14px 0
+}
+
+.r4 {
+    padding-left: 25px
+}
+
+.btn-outline-warning {
+    border-radius: 0;
+    border: 2px solid yellow;
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    width: 70%
+}
+
+@media screen and (max-width: 620px) {
+    .containers {
+        width: 98%;
+        display: flex;
+        flex-flow: column;
+        text-align: center
+    }
+
+    .des::after {
+        content: '.';
+        font-size: 0;
+        display: block;
+        border-radius: 20px;
+        height: 6px;
+        width: 35%;
+        background: yellow;
+        margin: 10px auto
+    }
+
+    .pqr {
+        text-align: center;
+        margin: 0 30px
+    }
+
+    .para {
+        text-align: center;
+        padding-left: 90px;
+        padding-top: 10px
+    }
+#knoppen {
+    text-align: center;
+}
+
+    .klo {
+        display: flex;
+        text-align: center;
+        margin: 0 auto;
+        margin-right: 40px
     }
 }
