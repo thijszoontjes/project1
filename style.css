@@ -494,7 +494,8 @@ span a:before{
 
 span a:after{
     color: #000;
-    transform: rotateX(90deg) translateZ(25px);
+    background-color: white;
+    transform: rotateX(90deg) translateZ(30px);
 }
 
 span a:hover{
