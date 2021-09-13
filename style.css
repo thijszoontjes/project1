@@ -146,7 +146,7 @@ h1  {
     float: left;
     width: 100%;
     height: 5%;
-    padding:50px 0;
+    padding:2% 45%;
     color:#f0f9ff;
     background-color:#282d32;
 
@@ -573,7 +573,7 @@ html::-webkit-scrollbar-thumb {
     box-sizing: border-box;
 }
 #onscat{
-
+    margin-top: 70%;
 }
 .row8 {
     transform: scale(0.6);
@@ -582,12 +582,14 @@ html::-webkit-scrollbar-thumb {
 
 /* Style the container/contact section */
 .container {
+    float: left;
     border-radius: 50px;
    background-color: white;
-    padding: 10px;
+    padding: 10% 50%;
+    margin: 10% 50%;
   border-style: solid;
     border-color: #FFA5A5;
-    height: 850px;
+    height: 20%;
 }
 
 /* Create two columns that float next to eachother */
@@ -603,6 +605,12 @@ html::-webkit-scrollbar-thumb {
     display: table;
     clear: both;
 }
+
+.row{
+    float: left;
+    width: 100%;
+}
+
 .container h2 {
 color: #FFA5A5;
 }
