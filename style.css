@@ -9,7 +9,6 @@ body{
     padding: 0;
     z-index: auto;
 
-
 }
 
 .centerItems{
@@ -28,8 +27,6 @@ body{
     font-style: italic;
 }
 
-.container {
-}
 
 /*http://www.autogeschiedenis.nl/images/auto-dealer.jpg */
 .middle {
@@ -87,6 +84,10 @@ body{
     float: right;
     margin-top: -250px;
     margin-right: 280px;
+}
+#luckycat:hover {
+    background: transparent url('images/boba.png');
+
 }
 
 h1  {
@@ -610,6 +611,9 @@ html::-webkit-scrollbar-thumb {
     float: left;
     width: 100%;
 }
+.card:hover{
+    box-shadow:  0 0 3px #FF0000;
+}
 
 .container h2 {
 color: #FFA5A5;
@@ -789,3 +793,4 @@ li {
 }
 
 }
+
