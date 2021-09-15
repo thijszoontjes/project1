@@ -48,8 +48,6 @@
     <div class="header">
         <div class="row r1" style="margin-left: 30%; margin-right: 20%">
             <div class="col-md-9 abc">
-                <h1>Sleutelhanger kat </h1>
-                <h3>Prijs: $2.99</h3>
             </div>
             <div class="col-md-3 text-right pqr"><i class="fa fa-star"></i><i class="fa fa-star"></i><i
                         class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
@@ -60,7 +58,8 @@
         <div class="row r3">
             <div id="knoppen" class="col-md-5 p-0 klo">
                 <ul style="color: #FFA5A5">
-                    <li><h3><b>Product Beschrijving</b></h3></li>
+                    <li><h1><b>SleutelHanger Kat <br> Prijs: $2,99</b></h1></li>
+                    <li><h3><b> <br>Product Beschrijving:</b></h3></li>
                     <li>100% Katoen.</li>
                     <li>Vandaag bestelt? Morgen in huis!</li>
                     <li>Kostenloos terug sturen.</li>
