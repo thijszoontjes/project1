@@ -422,6 +422,7 @@ tr {
     transform: scale(0.25);
     margin-top: -150px;
     white-space: unset;
+
 }
 
 #paypalImg:hover{
@@ -574,7 +575,7 @@ html::-webkit-scrollbar-thumb {
     box-sizing: border-box;
 }
 #onscat{
-    margin-top: 70%;
+    margin-top: 60%;
 }
 .row8 {
     transform: scale(0.6);
@@ -582,15 +583,15 @@ html::-webkit-scrollbar-thumb {
 }
 
 /* Style the container/contact section */
-.container {
-    float: left;
+.container{
     border-radius: 50px;
    background-color: white;
     padding: 10% 50%;
-    margin: 10% 50%;
   border-style: solid;
     border-color: #FFA5A5;
-    height: 20%;
+
+
+
 }
 
 /* Create two columns that float next to eachother */
@@ -654,7 +655,13 @@ color: #FFA5A5;
         transform: scale(0.8);
     }
 }
+@media screen and (max-width: 1169px) {
+    #onscat {
+        margin-top: -100px;
+        transform: scale(0.8);
 
+    }
+}
 .containers {
     background: #fff !important;
     border-radius: 50px;
@@ -787,10 +794,10 @@ li {
     #productkat {
         display: none;
     }
-    .containers-body {
-        background-image: url("https://o.remove.bg/downloads/8393e8f0-c32b-4937-94f9-41c4f1aea6aa/Boba_Fett_Mandalorian-removebg-preview.png");
-
 }
 
+@media screen and (max-width: 1320px) {
+#paypalImg {
+margin-top: -40px;
 }
-
+}

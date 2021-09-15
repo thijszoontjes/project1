@@ -75,10 +75,10 @@
             <td><input type="text" class="betaalvlak" id="fCity" name="stad" placeholder="Heemskerk , 1234AB "></td>
             <td><input type="text" class="betaalvlak" id="fCVV" name="cvv" placeholder="123 "></td>
         </tr>
+
         <tr>
             <td colspan="2"><input class="bestelbtn" id="bestel" type="submit" value="Bestel"></td>
         </tr>
-
     </table>
 
     <div id="bestelStatus"></div>
