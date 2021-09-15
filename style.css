@@ -810,6 +810,6 @@ margin-top: -40px;
         display: none;
     }
     #textons {
-        text-align: center;
+      margin: auto;
     }
 }
