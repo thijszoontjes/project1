@@ -589,6 +589,7 @@ html::-webkit-scrollbar-thumb {
     padding: 10% 50%;
   border-style: solid;
     border-color: #FFA5A5;
+    display: flex;
 
 
 
@@ -803,4 +804,12 @@ li {
 #paypalImg {
 margin-top: -40px;
 }
+}
+@media screen and (max-width: 1180px) {
+    #onscat {
+        display: none;
+    }
+    #textons {
+        text-align: center;
+    }
 }

@@ -126,7 +126,7 @@
 <!--    </div>-->
 <!--</div>-->
 <div class="container" id="overons">
-    <div style="text-align:center">
+    <div id="textons" style="text-align:center">
         <h2>Over Ons</h2>
         <p>Wij helpen je graag verder, hier wat info over wie wij zijn: <br>
             PlaceholdePlaceholderPlaceholderPlaceholderPlaceholder<br>PlaceholderPlaceholderPlaceholderPlaceho<br>lderPlaceholderPlaceholderPlaceholder<br>PlaceholderPlaceholderr
