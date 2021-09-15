@@ -86,7 +86,7 @@ body{
     margin-right: 280px;
 }
 #luckycat:hover {
-    background: transparent url('images/boba.png');
+    /*background: transparent url('images/boba.png');*/
 
 }
 
@@ -614,7 +614,7 @@ html::-webkit-scrollbar-thumb {
     width: 100%;
 }
 .card:hover{
-    box-shadow:  0 0 3px #FF0000;
+    box-shadow:  0 0 6px #FF0000;
 }
 
 .container h2 {
@@ -811,5 +811,12 @@ margin-top: -40px;
     }
     #textons {
       margin: auto;
+    }
+}
+
+@media screen and (min-width: 1180px) {
+
+    #textons {
+        margin-left: 50px;
     }
 }

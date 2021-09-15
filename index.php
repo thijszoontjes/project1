@@ -117,14 +117,10 @@
             <button><a href="" style="color: yellow">Zie product specificaties</a></button>
         </p>
     </div>
+
 </div>
 <br> <br> <br> <br> <br>
-<!--<div id="over"></div>-->
-<!--<div class="container3"><h1>Over Ons</h1>-->
-<!--    <div class="info"><h2>Placeholder <br></h2>-->
-<!--        <img id="ons" src="images/lucky_cat.png" alt="f">-->
-<!--    </div>-->
-<!--</div>-->
+
 <div class="container" id="overons">
     <div id="textons" style="text-align:center">
         <h2>Over Ons</h2>
