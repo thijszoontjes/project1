@@ -12,7 +12,7 @@
 <html lang = "en">
 
    <head>
-      <title>Tutorialspoint.com</title>
+      <title>login</title>
       <link href = "css/bootstrap.min.css" rel = "stylesheet">
        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
              integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
@@ -21,7 +21,6 @@
          body {
             padding-top: 40px;
             padding-bottom: 40px;
-            background-color: #ADABAB;
          }
 
          .form-signin {
@@ -78,7 +77,7 @@
 
    <body>
 
-      <h2>Enter Username and Password</h2>
+      <h2>Voer gebruikersnaam en wachtwoord in:</h2>
       <div class = "container form-signin">
 
          <?php
@@ -93,7 +92,7 @@
                   $_SESSION['timeout'] = time();
                   $_SESSION['username'] = 'tutorialspoint';
 
-                  echo 'You have entered valid use name and password';
+                  echo 'Inloggen gelukt!';
         echo "<form>
   <label for=\"fname\">First name:</label><br>
   <input type=\"text\" id=\"fname\" name=\"fname\"><br>
@@ -101,7 +100,7 @@
   <input type=\"text\" id=\"lname\" name=\"lname\">
 </form>";
                }else {
-                  $msg = 'Wrong username or password';
+                  $msg = 'Wachtwoord of gebruikersnaam is fout.';
                }
             }
          ?>
@@ -122,7 +121,6 @@
                name = "login">Login</button>
          </form>
 
-         Click here to clean <a href = "logout.php" tite = "Logout">Session.
 
       </div>
 
