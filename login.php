@@ -98,7 +98,7 @@
         echo "
        <form action=\"productdatabase.php\" method=\"post\">
     <p>
-        <label for=\"titel\">Titel Product:</label> <br>
+        <label for=\"titel\">Product Toevoegen <br>Titel Product:</label> <br>
         <input type=\"text\" name=\"titel\" id=\"titel\">
     </p>
     <p>
@@ -111,6 +111,13 @@
     </p>
     
     <input type=\"submit\" value=\"Submit\">
+</form>
+<br>
+<br>
+<form action=\"/#\">
+  <label for=\"delete\">Toch liever een product verwijderen? Typ hier de product titel in:</label>
+  <input type=\"text\" id=\"delete\" name=\"delete\"><br><br>
+   <input type=\"submit\" value=\"verwijderen\">
 </form>
 ";
                  
