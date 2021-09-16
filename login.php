@@ -14,6 +14,8 @@
    <head>
       <title>login</title>
       <link href = "css/bootstrap.min.css" rel = "stylesheet">
+       <link href = "login.css" rel = "stylesheet">
+<!--       <link rel="stylesheet" href="product.js ">-->
        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
              integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
@@ -93,12 +95,24 @@
                   $_SESSION['username'] = 'tutorialspoint';
 
                   echo 'Inloggen gelukt!';
-        echo "<form>
-  <label for=\"fname\">First name:</label><br>
-  <input type=\"text\" id=\"fname\" name=\"fname\"><br>
-  <label for=\"lname\">Last name:</label><br>
-  <input type=\"text\" id=\"lname\" name=\"lname\">
-</form>";
+        echo "
+       <form action=\"productdatabase.php\" method=\"post\">
+    <p>
+        <label for=\"titel\">First Name:</label>
+        <input type=\"text\" name=\"titel\" id=\"titel\">
+    </p>
+    <p>
+        <label for=\"prijs\">Last Name:</label>
+        <input type=\"text\" name=\"prijs\" id=\"prijs\">
+    </p>
+    <p>
+        <label for=\"beschrijving\">Email Address:</label>
+        <input type=\"text\" name=\"beschrijving\" id=\"beschrijving\">
+    </p>
+    <input type=\"submit\" value=\"Submit\">
+</form>
+";
+                 
                }else {
                   $msg = 'Wachtwoord of gebruikersnaam is fout.';
                }
@@ -113,10 +127,10 @@
             ?>" method = "post">
             <h4 class = "form-signin-heading"><?php echo $msg; ?></h4>
             <input type = "text" class = "form-control"
-               name = "username" placeholder = "username = tutorialspoint"
+               name = "username" placeholder = "Gebruikersnaam"
                required autofocus></br>
             <input type = "password" class = "form-control"
-               name = "password" placeholder = "password = 1234" required>
+               name = "password" placeholder = "Wachtwoord" required>
             <button class = "btn btn-lg btn-primary btn-block" type = "submit"
                name = "login">Login</button>
          </form>
