@@ -109,6 +109,7 @@
         <label for=\"beschrijving\">Beschrijving product:</label>
         <input type=\"text\" name=\"beschrijving\" id=\"beschrijving\">
     </p>
+    
     <input type=\"submit\" value=\"Submit\">
 </form>
 ";

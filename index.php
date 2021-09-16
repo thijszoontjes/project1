@@ -56,7 +56,7 @@
 
     echo "<div class='card col-12 col-sm-6 col-lg-4'>";
         echo "<img src='images/lucky_cat.png' alt='Denim Jeans' style='width:100%'>";
-        echo "<h1>Sleutelhanger kat</h1>";
+        echo "<h1>" . $row['titel'] . "</h1>";
         echo "<p class='price'>" . $row['prijs'] . "</p>";
         echo "<p>" . $row['beschrijving'] . "</p>";
         echo "<p>";
