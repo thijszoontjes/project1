@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>Bootjes Cadeatjes</title>
@@ -42,7 +40,6 @@
 
 <div class="ondertext"><h3> Een webshop voor al uw spullen! Van sleutelhangers tot prachtige naaiwerkjes.<br> Een webshop voor al uw spullen! Van sleutelhangers tot prachtige naaiwerkjes. <br>Een webshop voor al uw spullen! Van sleutelhangers tot prachtige naaiwerkjes.<br> Een webshop voor al uw spullen! Van sleutelhangers tot prachtige naaiwerkjes.</h3></div>
 
-<!--<img id="veeg" src="images/veeg.png" alt="veeg">-->
 <div id="webshop" class="webshop"><h1><u>Webshop</u></h1></div>
 <div class="row" id="row">
     <?php
@@ -66,7 +63,6 @@
     }
     mysqli_close($con);
     ?>
-
 </div>
 <br> <br> <br> <br> <br>
 
@@ -83,14 +79,10 @@
                  src="https://wwf.be/sites/default/files/styles/full_1920x980/public/inline-images/mALbiBS4dU1dvmGr6vOejaKvdVvrQEnrAhUYSW97yhN8KnI36V.jpg?itok=daXsja6F"
                  style="width:100%">
         </div>
-<!--        <div class="column">-->
-<!---->
-<!--        </div>-->
     </div>
 </div>
 <br> <br><br><br><br><br><br><br><br>
 <div class="footer-dark">
-
     <footer>
         <div class="container9">
             <div class="row">
@@ -107,8 +99,6 @@
 
         </div>
     </footer>
-
 </body>
-
 </html>
 <?php

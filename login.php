@@ -98,11 +98,11 @@
         echo "
        <form action=\"productdatabase.php\" method=\"post\">
     <p>
-        <label for=\"titel\">Titel Product:</label>
+        <label for=\"titel\">Titel Product:</label> <br>
         <input type=\"text\" name=\"titel\" id=\"titel\">
     </p>
     <p>
-        <label for=\"prijs\">Prijs Product:</label>
+        <label for=\"prijs\">Prijs Product:</label> <br>
         <input type=\"text\" name=\"prijs\" id=\"prijs\">
     </p>
     <p>
