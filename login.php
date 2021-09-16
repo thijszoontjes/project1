@@ -98,15 +98,15 @@
         echo "
        <form action=\"productdatabase.php\" method=\"post\">
     <p>
-        <label for=\"titel\">First Name:</label>
+        <label for=\"titel\">Titel Product:</label>
         <input type=\"text\" name=\"titel\" id=\"titel\">
     </p>
     <p>
-        <label for=\"prijs\">Last Name:</label>
+        <label for=\"prijs\">Prijs Product:</label>
         <input type=\"text\" name=\"prijs\" id=\"prijs\">
     </p>
     <p>
-        <label for=\"beschrijving\">Email Address:</label>
+        <label for=\"beschrijving\">Beschrijving product:</label>
         <input type=\"text\" name=\"beschrijving\" id=\"beschrijving\">
     </p>
     <input type=\"submit\" value=\"Submit\">

@@ -45,78 +45,27 @@
 <!--<img id="veeg" src="images/veeg.png" alt="veeg">-->
 <div id="webshop" class="webshop"><h1><u>Webshop</u></h1></div>
 <div class="row" id="row">
-    <div class="card col-12 col-sm-6 col-lg-4">
-        <img src="images/lucky_cat.png" alt="Denim Jeans" style="width:100%">
-        <h1>Sleutelhanger kat</h1>
-        <p class="price">$2,99</p>
-        <p>Sleutelhanger zwarte kat</p>
-        <p>
-            <button><a href="product.php" style="color: yellow">Zie product specificaties</a></button>
-        </p>
-    </div>
-    <div class="card col-12 col-sm-6 col-lg-4">
-        <img src="images/lucky_cat.png" alt="Denim Jeans" style="width:100%">
-        <h1>Sleutelhanger kat</h1>
-        <p class="price">$....</p>
-        <p>.......</p>
-        <p>
-            <button><a href="" style="color: yellow">Zie product specificaties</a></button>
-        </p>
-    </div>
-    <div class="card col-12 col-sm-6 col-lg-4">
-        <img src="images/lucky_cat.png" alt="Denim Jeans" style="width:100%">
-        <h1>placeholder</h1>
-        <p class="price">$....</p>
-        <p>.........</p>
-        <p>
-            <button><a href="" style="color: yellow">Zie product specificaties</a></button>
-        </p>
-    </div>
-    <div class="card col-12 col-sm-6 col-lg-4">
-        <img src="images/lucky_cat.png" alt="Denim Jeans" style="width:100%">
-        <h1>Placeholder</h1>
-        <p class="price">$....</p>
-        <p>.........</p>
-        <p>
-            <button><a href="" style="color: yellow">Zie product specificaties</a></button>
-        </p>
-    </div>
-    <div class="card col-12 col-sm-6 col-lg-4">
-        <img src="images/lucky_cat.png" alt="Denim Jeans" style="width:100%">
-        <h1>Sleutelhanger kat</h1>
-        <p class="price">$2,99</p>
-        <p>Sleutelhanger zwarte kat</p>
-        <p>
-            <button><a href="" style="color: yellow">Zie product specificaties</a></button>
-        </p>
-    </div>
-    <div class="card col-12 col-sm-6 col-lg-4">
-        <img src="images/lucky_cat.png" alt="Denim Jeans" style="width:100%">
-        <h1>Sleutelhanger kat</h1>
-        <p class="price">$....</p>
-        <p>.......</p>
-        <p>
-            <button><a href="" style="color: yellow">Zie product specificaties</a></button>
-        </p>
-    </div>
-    <div class="card col-12 col-sm-6 col-lg-4">
-        <img src="images/lucky_cat.png" alt="Denim Jeans" style="width:100%">
-        <h1>placeholder</h1>
-        <p class="price">$....</p>
-        <p>.........</p>
-        <p>
-            <button><a href="" style="color: yellow">Zie product specificaties</a></button>
-        </p>
-    </div>
-    <div class="card col-12 col-sm-6 col-lg-4">
-        <img src="images/lucky_cat.png" alt="Denim Jeans" style="width:100%">
-        <h1>Placeholder</h1>
-        <p class="price">$....</p>
-        <p>.........</p>
-        <p>
-            <button><a href="" style="color: yellow">Zie product specificaties</a></button>
-        </p>
-    </div>
+    <?php
+    $con = mysqli_connect("localhost", "root", "", "product"); // Check connection
+
+    if (mysqli_connect_errno()) {
+    echo "Failed to connect to MySQL: " . mysqli_connect_error();
+    }
+    $result = mysqli_query($con, "SELECT * FROM product");
+    while ($row = mysqli_fetch_array($result)) {
+
+    echo "<div class='card col-12 col-sm-6 col-lg-4'>";
+        echo "<img src='images/lucky_cat.png' alt='Denim Jeans' style='width:100%'>";
+        echo "<h1>Sleutelhanger kat</h1>";
+        echo "<p class='price'>" . $row['prijs'] . "</p>";
+        echo "<p>" . $row['beschrijving'] . "</p>";
+        echo "<p>";
+            echo "<button><a href='product.php' style='color: yellow'>Zie product specificaties</a></button>";
+            echo "</p>";
+        echo "</div>";
+    }
+    mysqli_close($con);
+    ?>
 
 </div>
 <br> <br> <br> <br> <br>
