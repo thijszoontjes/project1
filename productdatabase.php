@@ -17,6 +17,7 @@ $image = mysqli_real_escape_string($link, $_REQUEST['image']);
 
 
 
+
 // Attempt insert query execution
 $sql = "INSERT INTO product (titel, prijs, beschrijving , image) VALUES ('$titel', '$prijs' , '$beschrijving' , '$image')";
 if(mysqli_query($link, $sql)){
@@ -25,12 +26,6 @@ if(mysqli_query($link, $sql)){
     echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
 }
 
-//$sql = "DELETE FROM pruduct WHERE product_id = $nummer";
-//if(mysqli_query($link, $sql)){
-//    echo "Product verwijderd.";
-//} else{
-//    echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
-//}
-// Close connection
+
 mysqli_close($link);
 ?>

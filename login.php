@@ -116,15 +116,16 @@
 </form>
 <br>
 <br>
-echo \"<form action=\"productdatabase.php\" method=\"post\">
+";
+
+        echo "<form action=\"delete.php\" method=\"post\" name='verwijderen'>
     <p>
         <label for=\"titel\">Verwijder Product Nummer:</label> <br>
-        <input type=\"number\" name=\"nummer\" id=\"nummer\">
+        <input type=\"text\" name=\"titel\" id=\"titel\">
     </p>
 
-    <input id='verwijder' type=\"submit\" value=\"Submit\">
-</form>\";
-";
+    <input type=\"submit\" value=\"Submit\" name='verwijderen'>
+</form>";
                  
                }else {
                   $msg = 'Wachtwoord of gebruikersnaam is fout.';
