@@ -116,11 +116,14 @@
 </form>
 <br>
 <br>
-<form action=\"/#\">
-  <label for=\"delete\">Toch liever een product verwijderen? Typ hier de product titel in:</label>
-  <input type=\"text\" id=\"delete\" name=\"delete\"><br><br>
-   <input type=\"submit\" value=\"verwijderen\">
-</form>
+echo \"<form action=\"productdatabase.php\" method=\"post\">
+    <p>
+        <label for=\"titel\">Verwijder Product Nummer:</label> <br>
+        <input type=\"number\" name=\"nummer\" id=\"nummer\">
+    </p>
+
+    <input id='verwijder' type=\"submit\" value=\"Submit\">
+</form>\";
 ";
                  
                }else {
