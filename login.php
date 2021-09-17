@@ -109,6 +109,8 @@
         <label for=\"beschrijving\">Beschrijving product:</label>
         <input type=\"text\" name=\"beschrijving\" id=\"beschrijving\">
     </p>
+    <label for=\"image\">Select a file:</label>
+<input type=\"file\" id=\"image\" name=\"image\">
     
     <input type=\"submit\" value=\"Submit\">
 </form>

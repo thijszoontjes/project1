@@ -13,9 +13,10 @@ if($link === false){
 $titel = mysqli_real_escape_string($link, $_REQUEST['titel']);
 $prijs = mysqli_real_escape_string($link, $_REQUEST['prijs']);
 $beschrijving = mysqli_real_escape_string($link, $_REQUEST['beschrijving']);
+$image = mysqli_real_escape_string($link, $_REQUEST['image']);
 
 // Attempt insert query execution
-$sql = "INSERT INTO product (titel, prijs, beschrijving) VALUES ('$titel', '$prijs' , '$beschrijving')";
+$sql = "INSERT INTO product (titel, prijs, beschrijving , image) VALUES ('$titel', '$prijs' , '$beschrijving' , '$image')";
 if(mysqli_query($link, $sql)){
     echo "Product toegevoegd.";
 } else{

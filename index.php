@@ -52,7 +52,9 @@
     while ($row = mysqli_fetch_array($result)) {
 
     echo "<div class='card col-12 col-sm-6 col-lg-4'>";
-        echo "<img src='images/lucky_cat.png' alt='Denim Jeans' style='width:100%'>";
+//        echo "<im    . $row['image'] . alt='Denim Jeans' style='width:100%'>";
+//        echo "<img scr='$image'" . $row['image'];
+        echo "<img src='images/". $row['image'] ."'<img width='100%' height='200%'>";
         echo "<h1>" . $row['titel'] . "</h1>";
         echo "<p class='price'>" . $row['prijs'] . "</p>";
         echo "<p>" . $row['beschrijving'] . "</p>";
